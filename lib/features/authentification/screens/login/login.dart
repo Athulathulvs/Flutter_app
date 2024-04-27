@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/features/authentification/screens/password_configaration/forget_password.dart';
 import 'package:ecommerce_app/features/authentification/screens/signup/signup.dart';
 import 'package:ecommerce_app/utils/constants/colors.dart';
 import 'package:ecommerce_app/utils/constants/image_strings.dart';
@@ -7,6 +8,8 @@ import 'package:ecommerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '../../../../navigation_menu.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -83,7 +86,7 @@ class LoginScreen extends StatelessWidget {
 
                         /// Forget password
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () => Get.to(()=> const ForgetPassword()),
                             child: const Text(TTexts.forgetPassword)),
                       ],
                     ),
@@ -93,7 +96,7 @@ class LoginScreen extends StatelessWidget {
                     SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () => Get.to(() => const NavigationMenu()),
                             child: const Text(TTexts.signIn))),
                     const SizedBox(height: TSizes.spaceBtwItems),
 

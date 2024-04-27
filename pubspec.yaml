@@ -30,7 +30,9 @@ dependencies:
 
 
 #--------- product specification ---------#
-
+  readmore: ^3.0.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
 #--------- PACKAGES END ---------#
 dev_dependencies:
   flutter_test:
@@ -45,9 +47,13 @@ flutter:
 #--------- ASSETS ---------#
   assets:
     - assets/icons/
+    - assets/images/user/
     - assets/images/on_bording_images/
     - assets/logos/
     - assets/images/animations/
+    - assets/icons/catogories/
+    - assets/images/banners/
+    - assets/images/products/
 
 #--------- FONTS ---------#
   fonts:

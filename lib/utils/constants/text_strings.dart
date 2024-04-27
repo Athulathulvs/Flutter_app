@@ -31,6 +31,7 @@ class TTexts {
   static const String resendEmailIn = "Resend email in";
   static const String and = "and";
   static const String tcontinu = "Continue";
+  static const String Submit = "Submit";
 
 
   // -- Authentication Headings
